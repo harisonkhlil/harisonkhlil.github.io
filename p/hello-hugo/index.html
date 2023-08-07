@@ -317,6 +317,8 @@
       </ol>
     </li>
     <li><a href="#主题设置">主题设置</a></li>
+    <li><a href="#文章预览">文章预览</a></li>
+    <li><a href="#网站同步">网站同步</a></li>
     <li><a href="#主题语法">主题语法</a>
       <ol>
         <li><a href="#一些富文本支持">一些富文本支持</a>
@@ -330,8 +332,7 @@
         </li>
       </ol>
     </li>
-    <li><a href="#文章预览">文章预览</a></li>
-    <li><a href="#网站同步">网站同步</a></li>
+    <li><a href="#reference">Reference</a></li>
   </ol>
 </nav>
         </div>
@@ -416,7 +417,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -433,9 +434,9 @@
     
     <h1 id="hello-hugo">Hello Hugo</h1>
 <blockquote>
-<p>The world’s fastest framework for building websites.</p>
-<p>— Hugo</p>
-</blockquote>
+    <p><p>The world&rsquo;s fastest framework for building website</p>
+<p>Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+</p><span class="cite"><span>― </span><span>Hugo, </span><a href="https://gohugo.io/"><cite>Hugo Website</cite></a></span></blockquote>
 <h2 id="阅前提要">阅前提要</h2>
 <h3 id="pc-环境">PC 环境</h3>
 <p>本文的环境是 <code>macOS Ventura</code> 芯片是 <code>Apple Silicon</code></p>
@@ -540,7 +541,45 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>如果想要实现本博客的效果请前往 <a class="link" href="https://github.com/harisonkhlil/harisonkhlil"  target="_blank" rel="noopener"
-    >https://github.com/harisonkhlil/harisonkhlil</a> 查看目录结构以及相关文件,</p>
+    >https://github.com/harisonkhlil/harisonkhlil</a> 查看目录结构以及相关文件</p>
+<h2 id="文章预览">文章预览</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo server <span class="c1"># 文章实时预览</span>
+</span></span><span class="line"><span class="cl">hugo <span class="c1">#发布文章</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="网站同步">网站同步</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git init -b main
+</span></span><span class="line"><span class="cl"><span class="c1"># 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的SSH链接。</span>
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:harisonkhlil/harisonkhlil.github.io.git <span class="c1"># 这里请自行修改</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。</span>
+</span></span><span class="line"><span class="cl">git pull --rebase origin main 
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;init blog&#34;</span> 
+</span></span><span class="line"><span class="cl">git push origin main <span class="c1">#或者可能为 git push --set-upstream origin main</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>打开 <a class="link" href="https://username.github.io"  target="_blank" rel="noopener"
+    >https://username.github.io</a> 看部署是否成功。</p>
 <h2 id="主题语法">主题语法</h2>
 <p>需要在 <strong>index.md</strong> 开头加上：</p>
 <div class="highlight"><div class="chroma">
@@ -643,44 +682,15 @@
 <p>Stack adds a <code>quote</code> shortcode.  For example:</p>
 <blockquote>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><span class="cite"><span>― </span><span>A famous person, </span><a href="https://en.wikipedia.org/wiki/Book"><cite>The book they wrote</cite></a></span></blockquote>
-<h2 id="文章预览">文章预览</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo server <span class="c1"># 文章实时预览</span>
-</span></span><span class="line"><span class="cl">hugo <span class="c1">#发布文章</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="网站同步">网站同步</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
-</span></span><span class="line"><span class="cl">git init -b main
-</span></span><span class="line"><span class="cl"><span class="c1"># 将 public 文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的SSH链接。</span>
-</span></span><span class="line"><span class="cl">git remote add origin git@github.com:harisonkhlil/harisonkhlil.github.io.git <span class="c1"># 这里请自行修改</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 推送博客源仓库的 public 文件夹中的 HTML 网页文件到 GitHub Pages 仓库中，在推送仓库内容前要先用 git pull --rebase origin main 和远端仓库同步，否则会报错。</span>
-</span></span><span class="line"><span class="cl">git pull --rebase origin main 
-</span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;init blog&#34;</span> 
-</span></span><span class="line"><span class="cl">git push origin main <span class="c1">#或者可能为 git push --set-upstream origin main</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>打开 <a class="link" href="https://username.github.io"  target="_blank" rel="noopener"
-    >https://username.github.io</a> 看部署是否成功。</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a class="link" href="https://gohugo.io/getting-started/quick-start/"  target="_blank" rel="noopener"
+    >hugo quick start</a></li>
+<li><a class="link" href="https://stack.jimmycai.com/guide/getting-started"  target="_blank" rel="noopener"
+    >stack theme manual</a></li>
+<li><a class="link" href="https://www.pseudoyu.com/en/2022/05/29/deploy_your_blog_using_hugo_and_github_action/"  target="_blank" rel="noopener"
+    >deploy your using hugo and github action</a></li>
+</ul>
 
 </section>
 
