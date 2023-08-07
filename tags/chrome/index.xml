@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Chrome on 笑容守恒定律</title>
+        <link>https://harisonkhlil.github.io/tags/chrome/</link>
+        <description>Recent content in Chrome on 笑容守恒定律</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 07 Aug 2023 19:39:49 +0800</lastBuildDate><atom:link href="https://harisonkhlil.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Better Chroium</title>
+        <link>https://harisonkhlil.github.io/p/better-chroium/</link>
+        <pubDate>Mon, 07 Aug 2023 19:39:49 +0800</pubDate>
+        
+        <guid>https://harisonkhlil.github.io/p/better-chroium/</guid>
+        <description>&lt;img src="https://harisonkhlil.github.io/p/better-chroium/image1.jpeg" alt="Featured image of post Better Chroium" /&gt;&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;The fastest browser on Earth.&lt;/strong&gt;&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;a href=&#34;https://thorium.rocks/&#34;&gt;&lt;cite&gt;thorium offical website&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;使用体验&#34;&gt;使用体验&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;更快: &lt;a class=&#34;link&#34; href=&#34;https://browserbench.org/Speedometer2.1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;跑分&lt;/a&gt;超过&lt;strong&gt;Chroium&lt;/strong&gt;, &lt;strong&gt;Chrome&lt;/strong&gt;, &lt;strong&gt;Safari&lt;/strong&gt; 达到了惊人的 325 分, 最直观的体验就是, 打开网页的速度更快了&lt;/li&gt;
+&lt;li&gt;更稳: 没有数据支撑, 但是凭借使用了 2 年的 &lt;strong&gt;Chrome&lt;/strong&gt; 时不时就会导致卡机的体验来说, &lt;strong&gt;Thorium&lt;/strong&gt; 几乎从未造成过卡顿&lt;/li&gt;
+&lt;li&gt;更高效: 在打开相同的网页的情况下, &lt;strong&gt;Thorium&lt;/strong&gt; 更加省内存, 比如 &lt;strong&gt;bilibili&lt;/strong&gt; 在相同的编码下&lt;/li&gt;
+&lt;li&gt;更纯净: 相比与越来越臃肿的 &lt;strong&gt;Edge&lt;/strong&gt;, &lt;strong&gt;Chrome&lt;/strong&gt; 系的表现一直不错, 非常的纯净,简洁, 但是 &lt;strong&gt;Chrome&lt;/strong&gt; 同样有牛皮癣, 关不掉的 &lt;code&gt;side panel&lt;/code&gt;, 恶心的侧边栏搜索等, 本来可以在 &lt;code&gt;chrome://flags&lt;/code&gt; 中关闭某些按扭, 但是不知道为什么就是关不掉, 现在 &lt;strong&gt;Throium&lt;/strong&gt; 可以解决上面的一切问题.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;值得打开的-chromeflags&#34;&gt;值得打开的 chrome://flags&lt;/h2&gt;
+&lt;p&gt;下面是一些针对 &lt;strong&gt;Thorium&lt;/strong&gt; 的优化通过在搜索栏输入 &lt;code&gt;chrome://flags&lt;/code&gt;, &lt;strong&gt;en&lt;/strong&gt; 代表 &lt;code&gt;enable&lt;/code&gt;, &lt;strong&gt;ne&lt;/strong&gt; 代表 &lt;code&gt;never&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hide Side Panel Button: en, 关闭侧边栏&lt;/li&gt;
+&lt;li&gt;Show/Hide the Avatar Button: ne, 去掉右上角头像, 保护隐私&lt;/li&gt;
+&lt;li&gt;Show Autofill predictions: en, 自动填充预测&lt;/li&gt;
+&lt;li&gt;Experimental QUIC protocol: en, 国内环境不适合打开&lt;/li&gt;
+&lt;li&gt;GPU rasterization: en, 更好地显示&lt;/li&gt;
+&lt;li&gt;Omnibox Expanded State Height: en, 新 UI&lt;/li&gt;
+&lt;li&gt;Omnibox Expanded State Shap: en, 新 UI&lt;/li&gt;
+&lt;li&gt;Parallel downloading: en, 多线程下载&lt;/li&gt;
+&lt;li&gt;Back-forward cache: en, 后台缓存,更流畅的网页体验&lt;/li&gt;
+&lt;li&gt;Chrome Labs: disable, 去掉 lab 图标&lt;/li&gt;
+&lt;li&gt;Chrome Refresh 2023: en, 新 UI&lt;/li&gt;
+&lt;li&gt;Chrome Refresh 2023 Mac Font Smoothing: en, 新 UI&lt;/li&gt;
+&lt;li&gt;Search web in side panel: disable, 关闭侧边栏&lt;/li&gt;
+&lt;li&gt;Enable download bubble: en, 下载图标, 下面同时要打开&lt;/li&gt;
+&lt;li&gt;Enable download bubble V2: en&lt;/li&gt;
+&lt;li&gt;Biometric authentication reauth before filling: en: 生物识别认证&lt;/li&gt;
+&lt;li&gt;User notes side panel: en, 这个其实挺有用的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://beebom.com/google-chrome-flags/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;15 Google Chrome Flags You Should Use&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://thorium.rocks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Thorium rocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
