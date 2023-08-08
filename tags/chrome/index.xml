@@ -43,6 +43,7 @@
 &lt;li&gt;Enable download bubble V2: en&lt;/li&gt;
 &lt;li&gt;Biometric authentication reauth before filling: en: 生物识别认证&lt;/li&gt;
 &lt;li&gt;User notes side panel: en, 这个其实挺有用的&lt;/li&gt;
+&lt;li&gt;Encrypted ClientHello: en, Chrome 浏览器将启用加密 ClientHello 支持&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
 &lt;ul&gt;
@@ -50,6 +51,8 @@
     &gt;15 Google Chrome Flags You Should Use&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://thorium.rocks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Thorium rocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.cloudflare.com/encrypted-client-hello/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Good-bye ESNI, hello ECH&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
